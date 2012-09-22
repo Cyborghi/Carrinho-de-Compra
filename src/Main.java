@@ -25,6 +25,7 @@ public class Main {
 		System.out.println("Senha:");
 		password = in.next();
 		System.out.println("Logado como: " + login + "\n\n");
+                
 		while (true) {
 			System.out.println("O que você deseja fazer?\n\t1 - Incluir um produto\n\t2 - Remover um produto\n\t3 - Listar todos produtos\n\t4 - Buscar um produto\n\nOpção: ");
 			opcao = in.nextByte();
